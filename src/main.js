@@ -28,7 +28,7 @@ help_btn.addEventListener("click", () => {
 })
 
 document.getElementById("gh-btn").addEventListener("click", () => {
-  window.open("https://github.com/ayushk7/simsim85");
+  window.open("https://github.com/arunimLucky/simsim85");
 })
 
 
