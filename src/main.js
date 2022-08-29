@@ -41,6 +41,10 @@ document.getElementById("assemble-btn").addEventListener("click", () => {
   })
 })
 
+document.getElementById("reset-mem").addEventListener("click", () => {
+    processor.memory.refresh()
+})
+
 
 opcode_container.addEventListener("click", (e) => {
   if(e.target.id === "close-opcode"){
